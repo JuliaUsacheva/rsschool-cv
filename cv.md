@@ -16,7 +16,12 @@ Git, Github
 Fifma
 	
 ## Background
-	
+*And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream to become a Front-end Developer.
+
+*I'm a Senior Associate at the biggest russian e-commerce company (Ozon) with more than 10 years of experience.
+
+
+*Inspired by the experience of colleagues from the IT department, one day I want to become as good a Front-end Developer as I'm as a Lawyer. 
 
 ## Contacts 
 tel: +7 (915) 957-51-72
