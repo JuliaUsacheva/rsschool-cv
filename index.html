@@ -8,62 +8,87 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <nav></nav>
-    </header>
-    <main>
-        <h1>Julia Usacheva</h1>
-        <h2>Trainee to Junior Front-end Developer</h2>
-        <p>29 y.o, Moscow</p><br>
-        <div class="photo_box">
-            <img src="img/cv photo.png" alt="my beautiful face">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                 <li class="nav-item"><a href="#Background" class="nav-link">Background</a></li>
+                 <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                 <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                 <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                 <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+             </ul>
+        </nav>
         </div>
-        <h3>Background</h3>
-            <p>And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream to become a Front-end Developer.</p>
+    </header>   
+    
+    <aside>
+        <div class="container contacts">
+            <a class="telegram" href="https://t.me/julia_hvs">
+            <i class='bx bxl-telegram bx-tada'></i>Telegram</a><br>
+            <a class="email" href="mailto:usacheva16@gmail.com">
+            <i class='bx bx-envelope bx-tada'></i>Email</a><br>
+            <a class="facebook" href="https://www.facebook.com/julia.usacheva.3">
+            <i class='bx bxl-facebook-square bx-tada'></i>Facebook</a><br>
+            <a class="github" href="https://github.com/JuliaUsacheva/">
+            <i class='bx bxl-github bx-tada'></i>Github</a><br>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="container main-container">
+        <section class="section" id="name">
+            <h1 class="section-title">Hi, I'm <span>Julia</span></h1>
+             <h2 class="section-title">Trainee to Junior Front-end Developer</h2>
+            <p>29 y.o, Moscow</p>
+        </section>    
+        </div>
+        <section class="container img">
+            <img src="img/cv photo.png" alt="my photo">
+        </section>
+            </section>
+        <section class="section" id="Background">
+            <h2 class="section-title">Background</h2>
+            <p><blockquote>And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream to become a Front-end Developer.</blockquote></p>
             <p>I'm a Senior Associate at the biggest russian e-commerce company (Ozon) with more than 10 years of experience.</p>
             <p>Inspired by the experience of colleagues from the IT department, one day I want to become as good a Front-end Developer as I'm as a Lawyer.</p><br>
-	    <ul>
-            <h3>Skills:</h3>
+        </section>
+        <section class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Git, Github</li>
             <li>Fifma</li>
             <li>Java Script</Script></li>
         </ul>
-<div class="hero_links">
-        <a class="hero_link" href="#">
-            <i class='bx bxl-telegram'></i>
-        </a>
-        <a class="hero_link" href="#">
-            <i class='bx bx-envelope' ></i>
-        </a>
-        <a class="hero_link" href="#">
-            <i class='bx bxl-facebook'></i>
-        </a>
-        <a class="hero_link" href="#">
-            <i class='bx bxl-github' ></i>
-        </a>
-</div>
-<div>
-    <h3>Education</h3>
-    <p><i>2022</i> Hexlet</p>
-    <p><i>2022</i> Rolling Scopes School</p>
-    <p><i>2016 - 2019</i> Plekhanov Russian Economic University**, Faculty of Law, Postgraduate degree </p>
-    <p><i>2014 - 2016</i> National Research University 'Higher School of Economics', Faculty of Law, Master of laws</p>
-    <p><i>2010 - 2014</i> Russian Academy of National Economy and Public Administration under the President of the Russian Federation, Faculty of Law, Bachelor of Laws</p>
-    <p><i>2010 - 2014</i> Russian Academy of National Economy and Public Administration under the President of the Russian Federation, Faculty of foreign languages , Translator in professional communication</p>
-</div>	
-<div>
-    <h2>Languages</h2>
-    <p>Russian - native</p>
-    <p>Endlish - Intermediate/Upper-intermediate</p>
-    <p>French - Beginner</p>
-</div>
-	
+        </section>    
+        <section class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+            <p><span>2022</span> Hexlet, Front-end Developer</p>
+            <p><span>2022</span> Rolling Scopes School, JS/FE Preschool</p>
+            <p><span>2016 - 2019</span> Plekhanov Russian Economic University, Faculty of Law, PhD</p>
+            <p><span>2014 - 2016</span> Higher School of Economics, Faculty of Law, master of laws</p>
+            <p><span>2010 - 2014</span> Russian Academy of National Economy and Public Administration, Faculty of Law, Bachelor of Laws</p>
+            <p><span>2010 - 2014</span> Russian Academy of National Economy and Public Administration, Faculty of foreign languages, Translator in professional communication</p>
+        </section>
+        <section class="section" id="Languages">
+            <h2 class="section-title">Languages</h2>
+            <p>Russian - native</p>
+            <p>English - Intermediate/Upper-intermediate</p>
+            <p>French - Beginner</p>
+        </section>
+        </div>
     </main>
-    <footer>
+
+    <footer class="footer">
+        <div class="container">
         <ul>
             <li>
                 <a href="https://juliausacheva.github.io/rsschool-cv/cv">
@@ -75,6 +100,7 @@
             </li>
             <li></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>
