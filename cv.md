@@ -32,6 +32,7 @@ Interested in web development and math. Currently studying at RSSchool to learn 
 - Land Law Firm, Moscow, Russia
 
 ## Education
+- RSschool
 - RANHiGS, Moscow, Russia
 - HSE University, Moscow, Russia
 - Plekhanov Russian University of Economics, Moscow, Russia
